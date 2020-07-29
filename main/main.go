@@ -9,5 +9,5 @@ import (
 func main() {
 	r := src.Routes()
 
-	log.Fatal(http.ListenAndServe(":8080", r))
+	log.Fatal(http.ListenAndServe(":3000", r))
 }
